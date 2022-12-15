@@ -64,20 +64,21 @@ MenuBottom.defaultProps = {
 
 const styles = StyleSheet.create({
   container: {
+    
 
     maxHeight:100,
-
     backgroundColor: 'white',
-    alignItems: 'center',  
-   
+  
+
+
    
   },
 
   bottom: {
     
-   
-    flexDirection: 'row',
-    alignItems: 'flex-end',
+  
+  justifyContent:'space-around',
+
     
   },
 
